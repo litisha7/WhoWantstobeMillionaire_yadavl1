@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/level15Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 15 - $1,000,000"/>
+
+    <Button
+        android:id="@+id/level14Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 14 - $500,000" />
+
+    <Button
+        android:id="@+id/level13Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 13 - $300,000"/>
+
+    <Button
+        android:id="@+id/level12Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 12 - $200,000"/>
+
+    <Button
+        android:id="@+id/level11Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 11 - $100,000"/>
+
+    <Button
+        android:id="@+id/level10Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 10 - $50,000" />
+
+    <Button
+        android:id="@+id/level9Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 9 - $25,000" />
+
+    <Button
+        android:id="@+id/level8Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 8 - $12,500" />
+
+    <Button
+        android:id="@+id/level7Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 7 - $6,400"/>
+
+    <Button
+        android:id="@+id/level6Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 6 - $3,200"/>
+
+    <Button
+        android:id="@+id/level5Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 5 - $1,600" />
+
+    <Button
+        android:id="@+id/level4Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 4 - $800" />
+
+    <Button
+        android:id="@+id/level3Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 3 - $400" />
+
+    <Button
+        android:id="@+id/level2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 2 - $200"/>
+
+    <Button
+        android:id="@+id/level1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 1 - $100" />
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Who wants to be a Millionaire?</string>
+
+    <!--    Messages for game quiz-->
+    <string name="toast_correct">"This is the CORRECT answer! You won $"</string>
+    <string name="toast_wrong">"This is the WRONG answer. You lose the game!"</string>
+    <string name="won">You won : </string>
+    <string name="quit_text">Exit</string>
+    <string name="no_option_selected">"Please select one option!</string>
+
+    <!--    Messages for Winning-->
+    <string name="congrats">Congratulations!</string>
+
+    <!--    Messages for Losing-->
+    <string name="sorry">Sorry! You lost the game.</string>
+    <string name="try_again">TRY AGAIN</string>
+
+    <string name="help_text">GAME LEVELS</string>
+
+    <!--    Questions, options and answers -->
+    <string name="question_1">Where traditionally do birds fly in winter?</string>
+    <string name="option_1_a">North</string>
+    <string name="option_1_b">East</string>
+    <string name="option_1_c">South</string>
+    <string name="option_1_d">West</string>
+    <string name="answer_1">South</string>
+
+    <string name="question_2">The Starbucks coffee company was founded in which US City?</string>
+    <string name="option_2_a">Seattle</string>
+    <string name="option_2_b">Dallas</string>
+    <string name="option_2_c">Miami</string>
+    <string name="option_2_d">Boston</string>
+    <string name="answer_2">Seattle</string>
+
+    <string name="question_3">Who wrote the play ‘A Man For All Seasons’?</string>
+    <string name="option_3_a">John Osborne</string>
+    <string name="option_3_b">Peter Shaffer</string>
+    <string name="option_3_c">Harold Pinter</string>
+    <string name="option_3_d">Robert Bolt</string>
+    <string name="answer_3">Robert Bolt</string>
+
+    <string name="question_4">The Royal Albert Hall was named after the husband of which British monarch?</string>
+    <string name="option_4_a">Elizabeth</string>
+    <string name="option_4_b">Anne</string>
+    <string name="option_4_c">Mary</string>
+    <string name="option_4_d">Victoria</string>
+    <string name="answer_4">Victoria</string>
+
+    <string name="question_5">The Black Swan is native to which Country?</string>
+    <string name="option_5_a">India</string>
+    <string name="option_5_b">Mexico</string>
+    <string name="option_5_c">Brazil</string>
+    <string name="option_5_d">Australia</string>
+    <string name="answer_5">Australia</string>
+
+    <string name="question_6">Traditionally, mozzarella cheese is made from the milk of which Animal?</string>
+    <string name="option_6_a">Cow</string>
+    <string name="option_6_b">Goat</string>
+    <string name="option_6_c">Sheep</string>
+    <string name="option_6_d">Buffalo</string>
+    <string name="answer_6">Buffalo</string>
+
+    <string name="question_7">According to the title of the film, BradPitt’s character spent‘ Seven Years In ….’?</string>
+    <string name="option_7_a">Tibet</string>
+    <string name="option_7_b">China</string>
+    <string name="option_7_c">London</string>
+    <string name="option_7_d">Mexico</string>
+    <string name="answer_7">Tibet</string>
+
+    <string name="question_8">Which of the following is NOT a Bird of Prey?</string>
+    <string name="option_8_a">Buzzard</string>
+    <string name="option_8_b">Owl</string>
+    <string name="option_8_c">Sparrow</string>
+    <string name="option_8_d">Eagle</string>
+    <string name="answer_8">Sparrow</string>
+
+    <string name="question_9">What was the middle name of the artist LS Lowry?</string>
+    <string name="option_9_a">Sidney</string>
+    <string name="option_9_b">Stephen</string>
+    <string name="option_9_c">IStanley</string>
+    <string name="option_9_d">France</string>
+    <string name="answer_9">Stephen</string>
+
+    <string name="question_10">Which Disney character famously leaves a glass slipper behind at a royal ball?</string>
+    <string name="option_10_a">Pocahontas</string>
+    <string name="option_10_b">Sleeping Beauty</string>
+    <string name="option_10_c">Cinderella</string>
+    <string name="option_10_d">Elsa</string>
+    <string name="answer_10">Cinderella</string>
+
+    <string name="question_11">In the UK, the abbreviation NHS stands for National what Service?</string>
+    <string name="option_11_a">Humanity</string>
+    <string name="option_11_b">Health</string>
+    <string name="option_11_c">Honour</string>
+    <string name="option_11_d">Household</string>
+    <string name="answer_11">Health</string>
+
+    <string name="question_12">Which of these religious observances lasts for the shortest period of time during the calendar year?</string>
+    <string name="option_12_a">Ramadan</string>
+    <string name="option_12_b">Lent</string>
+    <string name="option_12_c">Hanukkah</string>
+    <string name="option_12_d">Diwali</string>
+    <string name="answer_12">Diwali</string>
+
+    <string name="question_13">At the closest point, which island group is only 50 miles south-east of the coast of Florida?</string>
+    <string name="option_13_a">Bahamas</string>
+    <string name="option_13_b">US Virgin Islands</string>
+    <string name="option_13_c">Turks Islands</string>
+    <string name="option_13_d">Bermuda</string>
+    <string name="answer_13">Bahamas</string>
+
+    <string name="question_14">Who is the only British politician to have held all four “Great Offices of State” at some point during their career?</string>
+    <string name="option_14_a">David Lloyd George</string>
+    <string name="option_14_b">Harold Wilson</string>
+    <string name="option_14_c">James Callaghan</string>
+    <string name="option_14_d">John Major</string>
+    <string name="answer_14">James Callaghan</string>
+
+    <string name="question_15">In 1718, which pirate died in battle off the coast of what is now North Carolina?</string>
+    <string name="option_15_a">Calico Jack</string>
+    <string name="option_15_b">Blackbeard</string>
+    <string name="option_15_c">Bartholomew Roberts</string>
+    <string name="option_15_d">Captain Kidd</string>
+    <string name="answer_15">Blackbeard</string>
+
+    <!-- String values for Rules Activity -->
+    <string name="amt15">$1,000,000</string>
+    <string name="amt14">$500,000</string>
+    <string name="amt13">$300,000</string>
+    <string name="amt12">$200,000</string>
+    <string name="amt11">$100,000</string>
+    <string name="amt10">$50,000</string>
+    <string name="amt9">$25,000</string>
+    <string name="amt8">$12,500</string>
+    <string name="amt7">$6,400</string>
+    <string name="amt6">$3,200</string>
+    <string name="amt5">$1,600</string>
+    <string name="amt4">800</string>
+    <string name="amt3">$400</string>
+    <string name="amt2">$200</string>
+    <string name="amt1">$100</string>
+    <string name="no15">15</string>
+    <string name="no14">14</string>
+    <string name="no13">13</string>
+    <string name="no12">12</string>
+    <string name="no11">11</string>
+    <string name="no10">10</string>
+    <string name="no9">9</string>
+    <string name="no8">8</string>
+    <string name="no7">7</string>
+    <string name="no6">6</string>
+    <string name="no5">5</string>
+    <string name="no4">4</string>
+    <string name="no3">3</string>
+    <string name="no2">2</string>
+    <string name="no1">1</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Scroll View enables the elements to be rendered properly when screen is tilted into landscape orientation-->
+
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bgDarkBlue">
+
+    <!--        Constraint layout inside scrollview - elements are placed with constraints-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        tools:context=".QuizStartActivity"
+        android:background="@color/bgDarkBlue">
+
+        <!--    Text to display Congratulations message-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCongrats"
+            android:text="@string/congrats"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/tvAmt"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textSize="40sp"
+            android:paddingBottom="30dp"
+            android:textColor="@color/golden"
+            android:gravity="center"/>
+
+        <!--TextView to display the amount won by the user-->
+
+        <TextView
+            android:id="@+id/tvAmt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_purple"
+            android:gravity="center"
+            android:padding="25dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvCongrats" />
+
+        <!--    The image view to show celebration. This will be shown as blinking :-) -->
+        <ImageView
+            android:id="@+id/logo_id"
+            app:layout_constraintTop_toBottomOf="@id/tvAmt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="500dp"
+            android:layout_height="400dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/win"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+    <!--End of layout-->
